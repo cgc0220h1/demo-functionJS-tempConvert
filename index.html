@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyển đổi nhiệt độ</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<p><b>Chuyển đổi nhiệt độ</b></p>
+<label>Farenheit</label>
+<input id="inputTemp" type="number" placeholder="Farenheit"
+       oninput="tempConvert(this.value)"
+       onchange="tempConvert(this.value)">
+<p id="result">Kết quả hiển thị ở đây</p>
+<script src="js/app.js"></script>
+</body>
+</html>
